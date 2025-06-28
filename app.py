@@ -18,6 +18,7 @@ def save():
     with open('data//data.txt','a') as file:
         saveText=n1+' '+n2+' '+n3+' '+n4+' '+n5+' '+n6+'\n'
         file.write(saveText)
+    new()
 def disAll():
     with open('data//data.txt','r') as file:
         eList=file.readlines()
